@@ -8,7 +8,7 @@ message: 'To cite package "igraph" in publications use:'
 type: software
 license: GPL-2.0-or-later
 title: 'igraph: Network Analysis and Visualization'
-version: 2.1.3
+version: 2.1.4
 identifiers:
 - type: doi
   value: 10.32614/CRAN.package.igraph
@@ -45,6 +45,14 @@ authors:
   given-names: Kirill
   email: kirill@cynkra.com
   orcid: https://orcid.org/0000-0002-1416-3412
+- family-names: Schoch
+  given-names: David
+  email: david.schoch@cynkra.com
+  orcid: https://orcid.org/0000-0003-2952-4812
+- family-names: Salmon
+  given-names: Maëlle
+  email: maelle@cynkra.com
+  orcid: https://orcid.org/0000-0002-2815-0399
 preferred-citation:
   type: article
   title: The igraph software package for complex network research
@@ -92,8 +100,12 @@ references:
     given-names: Daniel
   - family-names: Müller
     given-names: Kirill
+  - family-names: Schoch
+    given-names: David
+  - family-names: Salmon
+    given-names: Maëlle
   year: '2025'
-  notes: R package version 2.1.3
+  notes: R package version 2.1.4
   doi: 10.5281/zenodo.7682609
   url: https://CRAN.R-project.org/package=igraph
 - type: software
@@ -126,7 +138,7 @@ references:
   authors:
   - family-names: Csárdi
     given-names: Gábor
-    email: csardi.gabor@gmail.com
+    email: gabor@posit.co
   year: '2025'
   doi: 10.32614/CRAN.package.cli
 - type: software
@@ -184,7 +196,7 @@ references:
   title: Matrix
   abstract: 'Matrix: Sparse and Dense Matrix Classes and Methods'
   notes: Imports
-  url: https://R-forge.R-project.org/tracker/?atid=294&group_id=61
+  url: https://Matrix.R-forge.R-project.org
   repository: https://CRAN.R-project.org/package=Matrix
   authors:
   - family-names: Bates
